@@ -9,5 +9,12 @@
 #import "OneApi.h"
 
 @implementation OneApi
-
++(CancelSubphoneAlertView *)getCancelViewWithFrame:(CGRect)frame{
+    
+    NSString * rescourcePath = [[NSBundle mainBundle] pathForResource:@"resourse" ofType:@"bundle"];
+    NSBundle * bundle =[NSBundle bundleWithPath:rescourcePath];
+    CancelSubphoneAlertView *caview=[bundle loadNibNamed:@"CancelSubphoneAlertView" owner:self options:nil].lastObject;
+    caview.frame=frame;
+    return caview;
+}
 @end

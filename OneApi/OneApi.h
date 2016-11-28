@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "CancelSubphoneAlertView.h"
 @interface OneApi : NSObject
 
++(CancelSubphoneAlertView *)getCancelViewWithFrame:(CGRect)frame;
 @end

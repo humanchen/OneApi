@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>resourse.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E321DA241DE674320000ADB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E321DA361DE674B60000ADB9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

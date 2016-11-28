@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		E321DA2A1DE674320000ADB9 /* OneApi.m in Sources */ = {isa = PBXBuildFile; fileRef = E321DA291DE674320000ADB9 /* OneApi.m */; };
 		E321DA2B1DE674320000ADB9 /* OneApi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E321DA281DE674320000ADB9 /* OneApi.h */; };
+		E321DA321DE674850000ADB9 /* OneApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E321DA281DE674320000ADB9 /* OneApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E321DA401DE677970000ADB9 /* CancelSubphoneAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = E321DA3E1DE677970000ADB9 /* CancelSubphoneAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E321DA411DE677970000ADB9 /* CancelSubphoneAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E321DA3F1DE677970000ADB9 /* CancelSubphoneAlertView.m */; };
+		E321DA421DE677B20000ADB9 /* CancelSubphoneAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E321DA3D1DE677970000ADB9 /* CancelSubphoneAlertView.xib */; };
+		E321DA461DE679BF0000ADB9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E321DA451DE679BF0000ADB9 /* Media.xcassets */; };
+		E321DA7A1DE684FF0000ADB9 /* UIUnderlinedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E321DA781DE684FF0000ADB9 /* UIUnderlinedButton.h */; };
+		E321DA7B1DE684FF0000ADB9 /* UIUnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E321DA791DE684FF0000ADB9 /* UIUnderlinedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +35,25 @@
 		E321DA251DE674320000ADB9 /* libOneApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOneApi.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E321DA281DE674320000ADB9 /* OneApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneApi.h; sourceTree = "<group>"; };
 		E321DA291DE674320000ADB9 /* OneApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneApi.m; sourceTree = "<group>"; };
+		E321DA371DE674B60000ADB9 /* resourse.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resourse.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E321DA391DE674B60000ADB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E321DA3D1DE677970000ADB9 /* CancelSubphoneAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CancelSubphoneAlertView.xib; path = ../OneApi/CancelSubphoneAlertView.xib; sourceTree = "<group>"; };
+		E321DA3E1DE677970000ADB9 /* CancelSubphoneAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelSubphoneAlertView.h; sourceTree = "<group>"; };
+		E321DA3F1DE677970000ADB9 /* CancelSubphoneAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelSubphoneAlertView.m; sourceTree = "<group>"; };
+		E321DA451DE679BF0000ADB9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		E321DA781DE684FF0000ADB9 /* UIUnderlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUnderlinedButton.h; sourceTree = "<group>"; };
+		E321DA791DE684FF0000ADB9 /* UIUnderlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUnderlinedButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E321DA221DE674320000ADB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E321DA341DE674B60000ADB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				E321DA271DE674320000ADB9 /* OneApi */,
+				E321DA381DE674B60000ADB9 /* resourse */,
 				E321DA261DE674320000ADB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				E321DA251DE674320000ADB9 /* libOneApi.a */,
+				E321DA371DE674B60000ADB9 /* resourse.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,11 +86,38 @@
 			children = (
 				E321DA281DE674320000ADB9 /* OneApi.h */,
 				E321DA291DE674320000ADB9 /* OneApi.m */,
+				E321DA3E1DE677970000ADB9 /* CancelSubphoneAlertView.h */,
+				E321DA3F1DE677970000ADB9 /* CancelSubphoneAlertView.m */,
+				E321DA781DE684FF0000ADB9 /* UIUnderlinedButton.h */,
+				E321DA791DE684FF0000ADB9 /* UIUnderlinedButton.m */,
 			);
 			path = OneApi;
 			sourceTree = "<group>";
 		};
+		E321DA381DE674B60000ADB9 /* resourse */ = {
+			isa = PBXGroup;
+			children = (
+				E321DA3D1DE677970000ADB9 /* CancelSubphoneAlertView.xib */,
+				E321DA451DE679BF0000ADB9 /* Media.xcassets */,
+				E321DA391DE674B60000ADB9 /* Info.plist */,
+			);
+			path = resourse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E321DA311DE674560000ADB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E321DA401DE677970000ADB9 /* CancelSubphoneAlertView.h in Headers */,
+				E321DA7A1DE684FF0000ADB9 /* UIUnderlinedButton.h in Headers */,
+				E321DA321DE674850000ADB9 /* OneApi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E321DA241DE674320000ADB9 /* OneApi */ = {
@@ -76,6 +127,7 @@
 				E321DA211DE674320000ADB9 /* Sources */,
 				E321DA221DE674320000ADB9 /* Frameworks */,
 				E321DA231DE674320000ADB9 /* CopyFiles */,
+				E321DA311DE674560000ADB9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -85,6 +137,23 @@
 			productName = OneApi;
 			productReference = E321DA251DE674320000ADB9 /* libOneApi.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		E321DA361DE674B60000ADB9 /* resourse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E321DA3A1DE674B60000ADB9 /* Build configuration list for PBXNativeTarget "resourse" */;
+			buildPhases = (
+				E321DA331DE674B60000ADB9 /* Sources */,
+				E321DA341DE674B60000ADB9 /* Frameworks */,
+				E321DA351DE674B60000ADB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = resourse;
+			productName = resourse;
+			productReference = E321DA371DE674B60000ADB9 /* resourse.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +165,11 @@
 				ORGANIZATIONNAME = "陈思宇";
 				TargetAttributes = {
 					E321DA241DE674320000ADB9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8TS34KC67Y;
+						ProvisioningStyle = Automatic;
+					};
+					E321DA361DE674B60000ADB9 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8TS34KC67Y;
 						ProvisioningStyle = Automatic;
@@ -115,9 +189,22 @@
 			projectRoot = "";
 			targets = (
 				E321DA241DE674320000ADB9 /* OneApi */,
+				E321DA361DE674B60000ADB9 /* resourse */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E321DA351DE674B60000ADB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E321DA461DE679BF0000ADB9 /* Media.xcassets in Resources */,
+				E321DA421DE677B20000ADB9 /* CancelSubphoneAlertView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E321DA211DE674320000ADB9 /* Sources */ = {
@@ -125,6 +212,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E321DA2A1DE674320000ADB9 /* OneApi.m in Sources */,
+				E321DA411DE677970000ADB9 /* CancelSubphoneAlertView.m in Sources */,
+				E321DA7B1DE684FF0000ADB9 /* UIUnderlinedButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E321DA331DE674B60000ADB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +335,40 @@
 			};
 			name = Release;
 		};
+		E321DA3B1DE674B60000ADB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 8TS34KC67Y;
+				INFOPLIST_FILE = resourse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = cmcc.resourse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.0;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E321DA3C1DE674B60000ADB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 8TS34KC67Y;
+				INFOPLIST_FILE = resourse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = cmcc.resourse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.0;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -258,6 +388,16 @@
 				E321DA301DE674320000ADB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E321DA3A1DE674B60000ADB9 /* Build configuration list for PBXNativeTarget "resourse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E321DA3B1DE674B60000ADB9 /* Debug */,
+				E321DA3C1DE674B60000ADB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
